@@ -1,6 +1,6 @@
-# module02_week05_day02
+# Week 5 Day 2
 
-# Arrays Part 2
+## Arrays Part 2
 
 ## Assignment: 
 

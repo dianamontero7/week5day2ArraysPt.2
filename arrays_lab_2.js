@@ -7,21 +7,24 @@ let colors  = ["Red", "Blue", "Green"]
 // Write code below use push to add "Yellow" to the end of the array.
 
 
+colors.push("Yellow");
+
 
 // Write code below use unshift to add "Purple" to the beginning of the array.
 
-
+colors.unshift("Purple");
 
 // Write code below to use pop to remove the last item from the array.
 
-
+colors.pop([4]);
 
 // Write code below to use shift to remove the first item from the array.
 
+colors.shift([0]);
 
 
 // Print the final array to the console.
-console.log(colors)
+console.log(colors);
 
 
 
@@ -54,22 +57,30 @@ console.log(colors)
     - After your for loop executes the numbers array should now be empty.
  */
 
-
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     let evenNumbers = []
     let oddNumbers = []
+   
 
     // write your code below
 
+for (let i = numbers.length; i > 0; i-- ){
+let number = numbers.shift();
+if(number % 2 === 0){
+    evenNumbers.push(number);
+} else {
+    oddNumbers.push(number); 
+}
 
-
-
+}
 
 
 
     // Print the three arrays to the console below, on separate lines
 
-
+console.log(numbers);
+console.log(evenNumbers);
+console.log(oddNumbers);
 
 
 
